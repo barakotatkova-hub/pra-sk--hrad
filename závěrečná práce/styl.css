@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Imperial+Script&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cinzel Decorative", serif;
+    padding: 10px;
+    background-color: rgb(180, 209, 249);
+}
+/*header */
+.header {
+    padding: 25px;   
+    text-align: center;
+    
+}
+.header h1 {
+    font-size: 40px
+}
+
+.header p {
+    font-size: 20px;
+}
+
+/*nav*/
+.nav {
+    background-color: darkgray;
+    overflow: hidden;
+}
+.nav a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.nav a:hover {
+    background-color: rgb(240, 236, 236);
+    color: black;
+}
+
+
+/* main */
+.left {
+    width: 75%;
+    float: left;
+}
+.right {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+.card {
+    padding: 20px;
+    margin-top: 20px
+}
+.fakeimg {
+    background-color: rgb(209, 206, 206);
+    width: 100%;
+    padding: 20px;
+
+}
+.main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ukoly{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(243, 194, 194);
+
+}
+
+    .okenko {
+      width: 200px;
+      height: 100px;
+      border: 2px solid #000; /* černý rámeček */
+      background-color: #f0f0f0; /* světle šedé pozadí */
+      border-radius: 10px; /* zaoblené rohy */
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* stín */
+      margin: 20px auto;
+    }

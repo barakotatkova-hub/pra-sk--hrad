@@ -1,0 +1,33 @@
+table {border-collapse: collapse;
+
+}
+td {width: 60pt;
+    height: 60pt;
+    border: 1px solid black;
+
+}
+
+.černá {
+background-color: black;
+}
+
+.bílá {
+    background-color: white;
+}
+
+tr:nth-child(2n)  > td:nth-child(2n) { 
+    background-color: black;
+}
+
+  .okenko {
+      width: 200px;
+      height: 40px;
+      border: 2px solid #000; /* černý rámeček */
+      background-color: #f0f0f0; /* světle šedé pozadí */
+      border-radius: 10px; /* zaoblené rohy */
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* stín */
+      margin: 20px auto;
+    }

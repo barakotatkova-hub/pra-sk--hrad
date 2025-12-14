@@ -1,0 +1,36 @@
+body{
+    padding: 10px 30px          /* odsazení od krajů stránky */
+     justify;             /* zarovnání textu */
+}
+table{
+    border-collapse: collapse;  /* vymazání okrajů tabulky */
+    width: 100%;
+}
+
+
+tr:nth-child(2n){
+    background-color: rgb(142, 141, 141);
+
+}
+td{
+    padding: 7px;
+}
+
+tr:hover:not(:first-child) {
+    background-color: rgb(54, 54, 90);
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+    .okenko {
+      width: 200px;
+      height: 40px;
+      border: 2px solid #000; /* černý rámeček */
+      background-color: #f0f0f0; /* světle šedé pozadí */
+      border-radius: 10px; /* zaoblené rohy */
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* stín */
+      margin: 20px auto;
+    }
